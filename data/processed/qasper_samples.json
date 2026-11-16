@@ -1,0 +1,97 @@
+[
+  {
+    "paper_id": "qasper_01",
+    "title": "Sparse-Scale Attention for Scientific Literature",
+    "passages": [
+      {
+        "id": "p1",
+        "page": 1,
+        "text": "In this paper, we propose Sparse-Scale Multi-Head Attention (SS-MHA), an optimized self-attention variant tailored for scientific literature."
+      },
+      {
+        "id": "p2",
+        "page": 1,
+        "text": "By dynamically pruning low-entropy attention weights, our mechanism reduces memory overhead by 38.4% while improving ROUGE-L by 2.7 points."
+      },
+      {
+        "id": "p3",
+        "page": 2,
+        "text": "Our chunking window uses size 600 characters with an overlap of 120 characters to preserve cross-sentence contextual continuity."
+      },
+      {
+        "id": "p4",
+        "page": 3,
+        "text": "Experiments were executed on an Intel Core i7 machine with 16GB RAM using CPU-only inference to reflect student workstation constraints."
+      },
+      {
+        "id": "p5",
+        "page": 3,
+        "text": "Dense Sentence-Transformers achieved an MRR of 0.812 compared to 0.548 for TF-IDF on technical passage retrieval."
+      }
+    ],
+    "qa_pairs": [
+      {
+        "question": "What is the name of the proposed attention mechanism?",
+        "ground_truth": "Sparse-Scale Multi-Head Attention (SS-MHA)",
+        "relevant_passage_ids": [
+          "p1"
+        ],
+        "relevant_pages": [
+          1
+        ],
+        "is_answerable": true
+      },
+      {
+        "question": "By what percentage does the proposed method reduce memory overhead?",
+        "ground_truth": "38.4%",
+        "relevant_passage_ids": [
+          "p2"
+        ],
+        "relevant_pages": [
+          1
+        ],
+        "is_answerable": true
+      },
+      {
+        "question": "What chunk size and overlap were used in the methodology?",
+        "ground_truth": "Chunk size of 600 characters with an overlap of 120 characters.",
+        "relevant_passage_ids": [
+          "p3"
+        ],
+        "relevant_pages": [
+          2
+        ],
+        "is_answerable": true
+      },
+      {
+        "question": "What hardware was used for running the experiments?",
+        "ground_truth": "Intel Core i7 machine with 16GB RAM using CPU-only inference.",
+        "relevant_passage_ids": [
+          "p4"
+        ],
+        "relevant_pages": [
+          3
+        ],
+        "is_answerable": true
+      },
+      {
+        "question": "What was the MRR score of dense embeddings compared to TF-IDF?",
+        "ground_truth": "Dense embeddings achieved an MRR of 0.812 compared to 0.548 for TF-IDF.",
+        "relevant_passage_ids": [
+          "p5"
+        ],
+        "relevant_pages": [
+          3
+        ],
+        "is_answerable": true
+      },
+      {
+        "question": "What is the recommended recipe for baking sourdough bread?",
+        "ground_truth": "Unanswerable / Not found in document.",
+        "relevant_passage_ids": [],
+        "relevant_pages": [],
+        "is_answerable": false
+      }
+    ]
+  }
+]

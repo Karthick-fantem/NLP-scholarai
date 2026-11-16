@@ -1,0 +1,29 @@
+[
+  {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "type": "Dense Embedding",
+    "cache_path": "C:\\Users\\Monisha V\\.cache\\huggingface\\hub\\models--sentence-transformers--all-MiniLM-L6-v2",
+    "disk_mb": 1019.03,
+    "load_time_s": 0.5,
+    "inf_time_s": 0.172,
+    "sample_output": "Embedding shape (2, 384), Cosine Sim 0.1950"
+  },
+  {
+    "model": "google/flan-t5-small",
+    "type": "Grounded QA / Seq2Seq",
+    "cache_path": "C:\\Users\\Monisha V\\.cache\\huggingface\\hub\\models--google--flan-t5-small",
+    "disk_mb": 1303.38,
+    "load_time_s": 0.995,
+    "inf_time_s": 0.195,
+    "sample_output": "38.4%"
+  },
+  {
+    "model": "sshleifer/distilbart-cnn-12-6",
+    "type": "Abstractive Summarization",
+    "cache_path": "C:\\Users\\Monisha V\\.cache\\huggingface\\hub\\models--sshleifer--distilbart-cnn-12-6",
+    "disk_mb": 3891.02,
+    "load_time_s": 2.474,
+    "inf_time_s": 1.709,
+    "sample_output": "Sparse-Scale Multi-Head Attention reduces memory overhead by 38.4% and improves ROUGE-L summarization scores by 2.7 points ."
+  }
+]

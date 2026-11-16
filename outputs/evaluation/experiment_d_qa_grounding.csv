@@ -1,0 +1,7 @@
+question,is_answerable,predicted_answer,gold_answer,exact_match,token_f1,faithfulness,max_similarity,correctly_handled
+What is the name of the proposed attention mechanism?,True,Sparse-Scale Multi-Head Attention (SS-MHA),Sparse-Scale Multi-Head Attention (SS-MHA),1.0,1.0,1.0,0.5078,True
+By what percentage does the proposed method reduce memory overhead?,True,Answer: 38.4%,38.4%,0.0,0.6667,0.5,0.5186,True
+What chunk size and overlap were used in the methodology?,True,[Passage 1 - Page 2]: Our chunking window uses size 600 characters with an overlap of 120 characters to preserve cross-sentence contextual continuity.,Chunk size of 600 characters with an overlap of 120 characters.,0.0,0.5161,0.8095,0.4892,True
+What hardware was used for running the experiments?,True,Answer: Intel Core i7 machine with 16GB RAM,Intel Core i7 machine with 16GB RAM using CPU-only inference.,0.0,0.7778,0.875,0.4859,True
+What was the MRR score of dense embeddings compared to TF-IDF?,True,[1 - Page 3]: Dense Sentence-Transformers achieved an MRR of 0.812 compared to 0.548 for TF-IDF on technical passage retrieval.,Dense embeddings achieved an MRR of 0.812 compared to 0.548 for TF-IDF.,0.0,0.6897,0.8333,0.668,True
+What is the recommended recipe for baking sourdough bread?,False,"The requested information was not found in the uploaded research paper. To prevent hallucination, the system only generates answers strictly supported by the document's text.",Unanswerable / Not found in document.,1.0,1.0,1.0,0.0379,True

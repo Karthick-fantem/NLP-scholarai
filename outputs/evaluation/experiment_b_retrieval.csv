@@ -1,0 +1,11 @@
+question,retriever,p@1,p@3,r@3,mrr,latency_ms
+What is the name of the proposed attention mechanism?,Dense Semantic (MiniLM),1.0,0.3333,1.0,1.0,25.09
+What is the name of the proposed attention mechanism?,Lexical (TF-IDF),0.0,0.3333,1.0,0.5,3.75
+By what percentage does the proposed method reduce memory overhead?,Dense Semantic (MiniLM),1.0,0.3333,1.0,1.0,23.83
+By what percentage does the proposed method reduce memory overhead?,Lexical (TF-IDF),1.0,0.3333,1.0,1.0,2.0
+What chunk size and overlap were used in the methodology?,Dense Semantic (MiniLM),1.0,0.3333,1.0,1.0,21.56
+What chunk size and overlap were used in the methodology?,Lexical (TF-IDF),1.0,0.3333,1.0,1.0,2.01
+What hardware was used for running the experiments?,Dense Semantic (MiniLM),1.0,0.3333,1.0,1.0,39.62
+What hardware was used for running the experiments?,Lexical (TF-IDF),1.0,0.3333,1.0,1.0,3.76
+What was the MRR score of dense embeddings compared to TF-IDF?,Dense Semantic (MiniLM),1.0,0.3333,1.0,1.0,59.57
+What was the MRR score of dense embeddings compared to TF-IDF?,Lexical (TF-IDF),1.0,0.3333,1.0,1.0,1.75

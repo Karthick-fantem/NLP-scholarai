@@ -1,0 +1,105 @@
+# ============================================================
+#  ScholarAI — .gitignore
+#  AI-Powered Research Paper Summarization and QA
+# ============================================================
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual Environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# ── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── HuggingFace Model Cache ──────────────────────────────────
+# Models are large (1-4 GB each). Download with:
+#   python scripts/verify_and_cache_models.py
+models/
+~/.cache/huggingface/
+
+# ── NLTK Data ────────────────────────────────────────────────
+nltk_data/
+
+# ── Large Data Files ─────────────────────────────────────────
+data/raw/
+*.parquet
+*.arrow
+*.bin
+*.safetensors
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Keep processed samples and demo PDFs
+!data/processed/
+!data/processed/*.json
+!data/samples/
+!data/samples/*.pdf
+
+# ── ZIP Archives ─────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar
+
+# ── OS Files ─────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Streamlit ────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Testing ──────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ── Matplotlib Cache ─────────────────────────────────────────
+.matplotlib/
+
+# ── Temporary Files ──────────────────────────────────────────
+*.tmp
+*.temp
+tmp/
+temp/
+scratch/
+
+# ── Outputs (keep charts and CSVs, ignore large model outputs) ──
+# Keep experiment results so GitHub shows actual results
+!outputs/
+!outputs/evaluation/
+!outputs/evaluation/*.csv
+!outputs/charts/
+!outputs/charts/*.png
+
+# ── Reports (keep PDF and LaTeX) ────────────────────────────
+!reports/
+!reports/*.pdf
+!reports/*.tex
+!reports/figures/
+!reports/figures/*.png

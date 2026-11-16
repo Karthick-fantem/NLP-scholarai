@@ -1,0 +1,11 @@
+paper_id,model,rouge1,rouge2,rougeL,latency_sec,summary_length
+scitldr_01,TextRank (Extractive),0.3571,0.1463,0.2619,0.006,55
+scitldr_01,DistilBART (Abstractive),0.2857,0.1471,0.2286,9.287,43
+scitldr_02,TextRank (Extractive),0.2182,0.0,0.1455,0.004,35
+scitldr_02,DistilBART (Abstractive),0.28,0.0417,0.28,5.111,32
+scitldr_03,TextRank (Extractive),0.2857,0.1176,0.2286,0.003,49
+scitldr_03,DistilBART (Abstractive),0.4348,0.0909,0.3478,5.515,25
+scitldr_04,TextRank (Extractive),0.2597,0.0533,0.1558,0.004,49
+scitldr_04,DistilBART (Abstractive),0.2414,0.0357,0.1724,7.694,37
+scitldr_05,TextRank (Extractive),0.3143,0.1176,0.1429,0.004,46
+scitldr_05,DistilBART (Abstractive),0.2985,0.0308,0.1791,8.725,47
